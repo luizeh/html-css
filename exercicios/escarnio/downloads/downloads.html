@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads</title>
+    <link rel="shortcut icon" href="../imgsandfavicons/download.ico">
+    <style>
+      *{ /*config global das css*/
+          background-attachment: fixed;
+          text-align: center;
+        }
+      
+      body{
+          background-image: linear-gradient(45deg,#000000,#1b1b1b,#434B57);
+          color: white;
+        }
+
+        a {
+  text-decoration: none;
+  color: rgb(89, 73, 148);
+  font-weight: bold;
+}
+
+a:hover{
+  color: white;
+}
+
+      section {
+  background-color: #272b2e;
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 10px 10px 10px #040404
+}  
+
+    .backtohomepage{
+        padding-top:100px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 20px;
+    
+    }
+
+
+    </style>
+</head>
+<body>
+    <h1>Baixe as coisas aqui!</h1>
+    <br>
+    <section>
+        <h1>Links para baixar</h1>
+            <p>
+                <a href="/midia/previa-escarnio.mp3" download="previa-escarnio.mp3" type="application/mp3">Previa do Escarnio</a>
+            </p>
+            <p>
+                <a href="senac.pdf" download="senac.pdf" type="application/pdf">Meu pdf</a>
+            </p> <!--codigo pra redirecionar o cliente para um download. o type, voce consegue achar no iana.org/assignments/media-types-->
+            <p>
+               <a href="mapaconceitual.png" download="mapaconceitual.png" type="image/png">Meu mapa conceitual</a>
+            </p>
+    </section>
+    </ul>
+    <div class="backtohomepage">
+        <h2>Terminou os downloads? volte para nossa homepage incrivel e linda</h2>
+        <a href="../index.html"><img id="larrow" src="../imgsandfavicons/larrow.png" alt="leftarrow"></a> <!--"../" antes do nome do arquivo, pra conseguir voltar-->
+    </div>
+</body>
+</html>

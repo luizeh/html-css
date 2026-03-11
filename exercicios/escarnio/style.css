@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap");
+@font-face {
+  font-family: "creepy";
+  src: url("./fontes/Creepy\ Bloody\ Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*opentype (otf), truetype(ttf), embedded-opentype, truetype-aat (apple advanced typography), svg*/
+
+* {
+  font-family:
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /*pesquise safe fonts para mais compatibilidade*/
+}
+/* shorthand do font ordem: style, weight, size e family. */
+/* shorthand do border e outline ordem: width, style e color. */
+/* shorhand padding e margin ordem: top, right, bottom, left */
+body {
+  background-image: linear-gradient(45deg, #000000, #1b1b1b, #434b57);
+  color: grey;
+  min-height: 100vh;
+  margin: 0;
+}
+main {
+  background-color: #272b2e;
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 5px 5px 10px 3px #040404ad;
+}
+.main {
+  color: lightgrey;
+  text-align: center;
+  text-shadow: 5px 5px 5px darkslategrey;
+}
+
+div#audio-box {
+  background-color: black;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section#audioss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imagem {
+  display: flex;
+  border-radius: 10px;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texto {
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+
+.textof {
+  text-align: center;
+  font:
+    normal 400 60px "Rubik Scribble",
+    sans-serif;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(89, 73, 148);
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+}
+
+.creepy {
+  font-family: "creepy";
+  font-size: 4em;
+  color: dark;
+  text-align: center;
+}
