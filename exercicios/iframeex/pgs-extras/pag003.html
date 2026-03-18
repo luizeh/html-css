@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Gradient Site</title>
+
+<style>
+
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-family:Arial;
+color:white;
+
+background:linear-gradient(270deg,#ff4e50,#fc913a,#f9d423,#e65c00);
+background-size:800% 800%;
+
+animation:bg 12s infinite;
+}
+
+@keyframes bg{
+
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+
+}
+
+.box{
+
+text-align:center;
+
+padding:50px;
+
+background:rgba(0,0,0,0.4);
+
+border-radius:20px;
+
+}
+
+a{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:10px 20px;
+
+background:white;
+color:black;
+
+border-radius:10px;
+
+text-decoration:none;
+
+transition:0.3s;
+
+}
+
+a:hover{
+transform:scale(1.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>gradient sigma</h1>
+
+<p>testando iframe</p>
+
+<a href="#">bora bill</a>
+
+</div>
+
+</body>
+</html>
