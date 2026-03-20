@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* configs gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #232526, #414345);
+  color: white;
+}
+
+h1{
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(129, 129, 129, 0.562);
+}
