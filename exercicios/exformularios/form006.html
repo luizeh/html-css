@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <h1>Exemplo de Pagotário</h1>
+
+        <p>
+            <label for="icor">qual cor é da pagotada?</label>
+            <input type="color" id="icor" name="cor" value="#00ff00">
+        </p>
+
+        <p>
+            <label for="inivel">nivel de pagotação</label>
+            <input type="range" id="inivel" name="nivel" min="0" max="100" value="1">
+        </p>
+
+        <p>
+            <label for="ifoto">foto do pagotty</label>
+            <input type="file" id="ifoto" name="foto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
