@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+/* underline animada */
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #38bdf8;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* HERO */
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 40px;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 40px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ALBUNS */
+.albuns-container {
+  display: flex;
+  gap: 20px;
+}
+
+.album {
+  text-align: center;
+}
+
+.album img {
+  width: 150px;
+  height: 150px;
+  background: #333; /* placeholder */
+  border-radius: 10px;
+}
+
+/* FLOATING IMAGES */
+.floating {
+  position: absolute;
+  width: 100px;
+  opacity: 0.6;
+  animation: float 6s infinite ease-in-out;
+}
+
+.img1 {
+  top: 20%;
+  left: 10%;
+}
+
+.img2 {
+  top: 60%;
+  right: 10%;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}
