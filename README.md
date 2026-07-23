@@ -1,4 +1,4 @@
-# Curso de HTML5 e CSS3 — Exercícios e Projetos
+# Curso de HTML5 e CSS3 do CursoEmVideo — Exercícios e Projetos
 
 Repositório com os exercícios, desafios e projetos que desenvolvi ao longo do
 curso de HTML5 e CSS3 (CursoEmVideo). Vai do primeiro documento HTML até
@@ -10,9 +10,6 @@ Uma página-índice reúne tudo em um só lugar — projetos em destaque, exerc�
 navegáveis por módulo e uma linha do tempo da evolução dos estudos:
 
 **👉 https://luizeh.github.io/html-css/curso-showcase/**
-
-> Publicação: ative o GitHub Pages em **Settings → Pages**, servindo a branch
-> `main` a partir da raiz (`/`).
 
 ## 📚 Módulos
 
@@ -32,16 +29,6 @@ navegáveis por módulo e uma linha do tempo da evolução dos estudos:
 - **História do Android** — `md02/android-website/`
 - **Redes Sociais** — `md04/social2/`
 
-## 💻 Rodando localmente
-
-Como são páginas estáticas, basta abrir os arquivos `.html` no navegador.
-Para simular o ambiente do GitHub Pages, sirva a raiz do projeto:
-
-```bash
-# a partir da raiz do repositório
-python -m http.server 8000
-# depois acesse http://localhost:8000/curso-showcase/
-```
 
 ## 🗂️ Estrutura
 
