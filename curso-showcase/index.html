@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Índice dos meus estudos de HTML5 e CSS3: projetos práticos e exercícios por módulo.">
+  <title>Curso de HTML &amp; CSS — Luís</title>
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="bg-decor" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span></div>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-logo"><i class="fa-solid fa-book-open"></i></span>
+        <span class="brand-text">Curso HTML &amp; CSS<small>por Luís (luizeh)</small></span>
+      </a>
+      <nav class="nav">
+        <a href="#projetos">Projetos</a>
+        <a href="#modulos">Módulos</a>
+        <a href="#evolucao">Evolução</a>
+        <a class="nav-gh" href="https://github.com/luizeh/html-css" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text reveal-init">
+          <span class="eyebrow"><span class="dot"></span> Jornada front-end</span>
+          <h1>Meus estudos de <span class="grad">HTML5 &amp; CSS3</span> em um só lugar</h1>
+          <p class="lead">Um índice organizado dos projetos e exercícios que construí no curso — do primeiro parágrafo em HTML ao layout responsivo com Flexbox e Grid.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projetos"><i class="fa-solid fa-diagram-project"></i> Ver projetos</a>
+            <a class="btn btn-ghost" href="#modulos"><i class="fa-solid fa-layer-group"></i> Explorar módulos</a>
+          </div>
+          <ul class="stats">
+            <li><span class="num" data-count="5">5</span><span class="lbl">Projetos</span></li>
+            <li><span class="num" data-count="5">5</span><span class="lbl">Módulos</span></li>
+            <li><span class="num" data-count="46">46</span><span class="lbl">Exercícios</span></li>
+            <li><span class="num" data-count="4">4</span><span class="lbl">Desafios</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal-init">
+          <div class="stack" aria-hidden="true">
+            <figure class="stack-card sc-back"><img src="assets/thumbs/android.jpg" alt="" loading="lazy" width="1280" height="800"></figure>
+            <figure class="stack-card sc-mid"><img src="assets/thumbs/social.jpg" alt="" loading="lazy" width="1280" height="800"></figure>
+            <figure class="stack-card sc-front">
+              <img src="assets/thumbs/portfolio.jpg" alt="Preview do projeto Portfólio Pessoal" loading="lazy" width="1280" height="800">
+              <figcaption><i class="fa-solid fa-star"></i> Projeto em destaque</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section" id="projetos">
+      <div class="wrap">
+        <div class="sec-head reveal-init">
+          <span class="kicker"><i class="fa-solid fa-star"></i> Portfólio</span>
+          <h2>Projetos práticos</h2>
+          <p>Sites completos feitos ao longo do curso — clique para abrir.</p>
+        </div>
+        <div class="proj-grid reveal-init">
+          <a class="proj-card" href="../md05/desafio-final/index.html">
+            <div class="proj-thumb">
+              <img src="assets/thumbs/portfolio.jpg" alt="Preview do projeto Portfólio Pessoal" loading="lazy" width="1280" height="800">
+              <span class="proj-open"><i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir projeto</span>
+            </div>
+            <div class="proj-body">
+              <span class="proj-cat"><i class="fa-solid fa-user"></i> Projeto final</span>
+              <h3 class="proj-title">Portfólio Pessoal</h3>
+              <p class="proj-desc">Página pessoal com skills, tema escuro e layout responsivo em Flexbox e Grid.</p>
+            </div>
+          </a>
+          <a class="proj-card" href="../md01/ena/index.html">
+            <div class="proj-thumb">
+              <img src="assets/thumbs/ena.jpg" alt="Preview do projeto Ena — Meus Vídeos" loading="lazy" width="1280" height="800">
+              <span class="proj-open"><i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir projeto</span>
+            </div>
+            <div class="proj-body">
+              <span class="proj-cat"><i class="fa-solid fa-video"></i> Multipágina</span>
+              <h3 class="proj-title">Ena — Meus Vídeos</h3>
+              <p class="proj-desc">Site de vídeos com navegação entre várias páginas internas.</p>
+            </div>
+          </a>
+          <a class="proj-card" href="../md01/escarnio/index.html">
+            <div class="proj-thumb">
+              <img src="assets/thumbs/escarnio.jpg" alt="Preview do projeto Escárnio &amp; Abscôndito" loading="lazy" width="1280" height="800">
+              <span class="proj-open"><i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir projeto</span>
+            </div>
+            <div class="proj-body">
+              <span class="proj-cat"><i class="fa-solid fa-music"></i> Site temático</span>
+              <h3 class="proj-title">Escárnio &amp; Abscôndito</h3>
+              <p class="proj-desc">Site de banda com mídia, página de downloads e múltiplas seções.</p>
+            </div>
+          </a>
+          <a class="proj-card" href="../md02/android-website/index.html">
+            <div class="proj-thumb">
+              <img src="assets/thumbs/android.jpg" alt="Preview do projeto História do Android" loading="lazy" width="1280" height="800">
+              <span class="proj-open"><i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir projeto</span>
+            </div>
+            <div class="proj-body">
+              <span class="proj-cat"><i class="fa-brands fa-android"></i> Artigo</span>
+              <h3 class="proj-title">História do Android</h3>
+              <p class="proj-desc">Página-artigo sobre o mascote do Android, com tipografia e imagens.</p>
+            </div>
+          </a>
+          <a class="proj-card" href="../md04/social2/index.html">
+            <div class="proj-thumb">
+              <img src="assets/thumbs/social.jpg" alt="Preview do projeto Redes Sociais" loading="lazy" width="1280" height="800">
+              <span class="proj-open"><i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir projeto</span>
+            </div>
+            <div class="proj-body">
+              <span class="proj-cat"><i class="fa-solid fa-mobile-screen-button"></i> Mobile UI</span>
+              <h3 class="proj-title">Redes Sociais</h3>
+              <p class="proj-desc">Navegação entre redes sociais dentro de um mockup de celular.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÓDULOS -->
+    <section class="section section-alt" id="modulos">
+      <div class="wrap">
+        <div class="sec-head reveal-init">
+          <span class="kicker"><i class="fa-solid fa-graduation-cap"></i> Exercícios</span>
+          <h2>Módulos do curso</h2>
+          <p>Escolha um módulo para ver seus exercícios. Use a busca para encontrar um assunto.</p>
+        </div>
+
+        <div class="modules-toolbar reveal-init">
+          <div class="segmented" role="tablist" aria-label="Módulos do curso">
+          <button class="seg active" role="tab" id="tab-m01" aria-controls="panel-m01" aria-selected="true" data-target="m01">
+            <i class="fa-brands fa-html5"></i><span>Módulo 01</span>
+          </button>
+          <button class="seg" role="tab" id="tab-m02" aria-controls="panel-m02" aria-selected="false" data-target="m02">
+            <i class="fa-solid fa-image"></i><span>Módulo 02</span>
+          </button>
+          <button class="seg" role="tab" id="tab-m03" aria-controls="panel-m03" aria-selected="false" data-target="m03">
+            <i class="fa-solid fa-table"></i><span>Módulo 03</span>
+          </button>
+          <button class="seg" role="tab" id="tab-m04" aria-controls="panel-m04" aria-selected="false" data-target="m04">
+            <i class="fa-solid fa-list-check"></i><span>Módulo 04</span>
+          </button>
+          <button class="seg" role="tab" id="tab-m05" aria-controls="panel-m05" aria-selected="false" data-target="m05">
+            <i class="fa-solid fa-table-cells-large"></i><span>Módulo 05</span>
+          </button>
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <label for="busca" class="sr-only">Pesquisar exercício</label>
+            <input type="search" id="busca" placeholder="Buscar exercício ou assunto…" autocomplete="off">
+          </div>
+        </div>
+
+        <p class="search-status" id="searchStatus" hidden></p>
+
+        <div class="modules-body" id="modulesBody">
+        <div class="module-panel active" id="panel-m01" role="tabpanel" aria-labelledby="tab-m01" data-module="m01">
+          <div class="panel-intro">
+            <h3 class="panel-name"><i class="fa-brands fa-html5"></i> Fundamentos do HTML</h3>
+            <p class="panel-hint">Estrutura, textos, links e imagens. <span class="panel-count">4 itens</span></p>
+          </div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md01/ex005/index.html" data-keywords="textos e cores ex 05  estrutura textos cores ">
+              <div class="ex-top"><span class="ex-badge">05</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Textos e cores</h4>
+              <div class="ex-chips"><span class="chip">Estrutura</span><span class="chip">Textos</span><span class="chip">Cores</span></div>
+            </a>
+            <a class="ex-card" href="../md01/ex006/index.html" data-keywords="capítulos e navegação ex 06  links navegação ">
+              <div class="ex-top"><span class="ex-badge">06</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Capítulos e navegação</h4>
+              <div class="ex-chips"><span class="chip">Links</span><span class="chip">Navegação</span></div>
+            </a>
+            <a class="ex-card" href="../md01/ex007/fundo001.html" data-keywords="imagens de fundo ex 07  background alinhamento ">
+              <div class="ex-top"><span class="ex-badge">07</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Imagens de fundo</h4>
+              <div class="ex-chips"><span class="chip">background</span><span class="chip">Alinhamento</span></div>
+            </a>
+            <a class="ex-card" href="../md01/social/index.html" data-keywords="minhas redes sociais   listas links tags ">
+              <div class="ex-top"><span class="ex-badge">•</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Minhas redes sociais</h4>
+              <div class="ex-chips"><span class="chip">Listas</span><span class="chip">Links</span><span class="chip">Tags</span></div>
+            </a>
+          </div>
+        </div>
+        <div class="module-panel" id="panel-m02" role="tabpanel" aria-labelledby="tab-m02" data-module="m02">
+          <div class="panel-intro">
+            <h3 class="panel-name"><i class="fa-solid fa-image"></i> Imagens &amp; Semântica</h3>
+            <p class="panel-hint">Imagens responsivas e HTML semântico. <span class="panel-count">1 itens</span></p>
+          </div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md02/img-adaptativa/index.html" data-keywords="imagem adaptativa   &lt;picture&gt; srcset responsivo ">
+              <div class="ex-top"><span class="ex-badge">•</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Imagem adaptativa</h4>
+              <div class="ex-chips"><span class="chip">&lt;picture&gt;</span><span class="chip">srcset</span><span class="chip">Responsivo</span></div>
+            </a>
+          </div>
+        </div>
+        <div class="module-panel" id="panel-m03" role="tabpanel" aria-labelledby="tab-m03" data-module="m03">
+          <div class="panel-intro">
+            <h3 class="panel-name"><i class="fa-solid fa-table"></i> Tabelas</h3>
+            <p class="panel-hint">Estrutura e responsividade de tabelas. <span class="panel-count">9 itens</span></p>
+          </div>
+          <div class="grp-head"><h3>Tabelas</h3><span class="grp-count">6</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md03/ex-tabela/tabela001.html" data-keywords="minha primeira tabela ex 01 tabelas table th, td ">
+              <div class="ex-top"><span class="ex-badge">01</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Minha primeira tabela</h4>
+              <div class="ex-chips"><span class="chip">table</span><span class="chip">th, td</span></div>
+            </a>
+            <a class="ex-card" href="../md03/ex-tabela/tabela002.html" data-keywords="tabelas grandes ex 02 tabelas thead tbody tfoot ">
+              <div class="ex-top"><span class="ex-badge">02</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Tabelas grandes</h4>
+              <div class="ex-chips"><span class="chip">thead</span><span class="chip">tbody</span><span class="chip">tfoot</span></div>
+            </a>
+            <a class="ex-card" href="../md03/ex-tabela/tabela003.html" data-keywords="mesclagem de células ex 03 tabelas colspan rowspan ">
+              <div class="ex-top"><span class="ex-badge">03</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Mesclagem de células</h4>
+              <div class="ex-chips"><span class="chip">colspan</span><span class="chip">rowspan</span></div>
+            </a>
+            <a class="ex-card" href="../md03/ex-tabela/tabela004.html" data-keywords="agrupando colunas ex 04 tabelas colgroup ">
+              <div class="ex-top"><span class="ex-badge">04</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Agrupando colunas</h4>
+              <div class="ex-chips"><span class="chip">colgroup</span></div>
+            </a>
+            <a class="ex-card" href="../md03/ex-tabela/tabela005.html" data-keywords="cadastro em tabela ex 05 tabelas caption ">
+              <div class="ex-top"><span class="ex-badge">05</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Cadastro em tabela</h4>
+              <div class="ex-chips"><span class="chip">caption</span></div>
+            </a>
+            <a class="ex-card" href="../md03/ex-tabela/tabela006.html" data-keywords="tabelas responsivas ex 06 tabelas overflow mobile ">
+              <div class="ex-top"><span class="ex-badge">06</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Tabelas responsivas</h4>
+              <div class="ex-chips"><span class="chip">overflow</span><span class="chip">Mobile</span></div>
+            </a>
+          </div>
+          <div class="grp-head"><h3>Desafios</h3><span class="grp-count">3</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md03/ex-tabela/desafiostabela/dsftabela.html" data-keywords="desafio de tabelas 1 ex d1 desafios prática desafio">
+              <div class="ex-top"><span class="ex-badge ex-badge--desafio">Desafio</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Desafio de tabelas 1</h4>
+              <div class="ex-chips"><span class="chip">Prática</span></div>
+            </a>
+            <a class="ex-card" href="../md03/ex-tabela/desafiostabela/dsftabela2.html" data-keywords="desafio de tabelas 2 ex d2 desafios prática desafio">
+              <div class="ex-top"><span class="ex-badge ex-badge--desafio">Desafio</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Desafio de tabelas 2</h4>
+              <div class="ex-chips"><span class="chip">Prática</span></div>
+            </a>
+            <a class="ex-card" href="../md03/ex-tabela/desafiostabela/dsftabela3.html" data-keywords="desafio de tabelas 3 ex d3 desafios prática desafio">
+              <div class="ex-top"><span class="ex-badge ex-badge--desafio">Desafio</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Desafio de tabelas 3</h4>
+              <div class="ex-chips"><span class="chip">Prática</span></div>
+            </a>
+          </div>
+        </div>
+        <div class="module-panel" id="panel-m04" role="tabpanel" aria-labelledby="tab-m04" data-module="m04">
+          <div class="panel-intro">
+            <h3 class="panel-name"><i class="fa-solid fa-list-check"></i> Formulários &amp; Responsividade</h3>
+            <p class="panel-hint">Formulários, iframes e media queries. <span class="panel-count">21 itens</span></p>
+          </div>
+          <div class="grp-head"><h3>Formulários</h3><span class="grp-count">10</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md04/ex-formularios/form001.html" data-keywords="meu primeiro formulário ex 01 formulários form input label ">
+              <div class="ex-top"><span class="ex-badge">01</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Meu primeiro formulário</h4>
+              <div class="ex-chips"><span class="chip">form</span><span class="chip">input</span><span class="chip">label</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form002.html" data-keywords="senha e validação ex 02 formulários password required ">
+              <div class="ex-top"><span class="ex-badge">02</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Senha e validação</h4>
+              <div class="ex-chips"><span class="chip">password</span><span class="chip">required</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form003.html" data-keywords="data e hora ex 03 formulários date time number ">
+              <div class="ex-top"><span class="ex-badge">03</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Data e hora</h4>
+              <div class="ex-chips"><span class="chip">date</span><span class="chip">time</span><span class="chip">number</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form004.html" data-keywords="e-mail e telefone ex 04 formulários email tel fieldset ">
+              <div class="ex-top"><span class="ex-badge">04</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">E-mail e telefone</h4>
+              <div class="ex-chips"><span class="chip">email</span><span class="chip">tel</span><span class="chip">fieldset</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form005.html" data-keywords="seleção de opções ex 05 formulários checkbox radio ">
+              <div class="ex-top"><span class="ex-badge">05</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Seleção de opções</h4>
+              <div class="ex-chips"><span class="chip">checkbox</span><span class="chip">radio</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form006.html" data-keywords="cor, arquivo e range ex 06 formulários color file range ">
+              <div class="ex-top"><span class="ex-badge">06</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Cor, arquivo e range</h4>
+              <div class="ex-chips"><span class="chip">color</span><span class="chip">file</span><span class="chip">range</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form007.html" data-keywords="listas e área de texto ex 07 formulários datalist select textarea ">
+              <div class="ex-top"><span class="ex-badge">07</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Listas e área de texto</h4>
+              <div class="ex-chips"><span class="chip">datalist</span><span class="chip">select</span><span class="chip">textarea</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form008.html" data-keywords="campos numéricos ex 08 formulários number required ">
+              <div class="ex-top"><span class="ex-badge">08</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Campos numéricos</h4>
+              <div class="ex-chips"><span class="chip">number</span><span class="chip">required</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form009.html" data-keywords="controle deslizante ex 09 formulários range ">
+              <div class="ex-top"><span class="ex-badge">09</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Controle deslizante</h4>
+              <div class="ex-chips"><span class="chip">range</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-formularios/form010.html" data-keywords="formulário numérico ex 10 formulários number ">
+              <div class="ex-top"><span class="ex-badge">10</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Formulário numérico</h4>
+              <div class="ex-chips"><span class="chip">number</span></div>
+            </a>
+          </div>
+          <div class="grp-head"><h3>Iframes</h3><span class="grp-count">6</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md04/ex-iframe/iframe001.html" data-keywords="testando o iframe ex 01 iframes iframe externos ">
+              <div class="ex-top"><span class="ex-badge">01</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Testando o iframe</h4>
+              <div class="ex-chips"><span class="chip">iframe</span><span class="chip">externos</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-iframe/iframe002.html" data-keywords="incorporando página local ex 02 iframes iframe ">
+              <div class="ex-top"><span class="ex-badge">02</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Incorporando página local</h4>
+              <div class="ex-chips"><span class="chip">iframe</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-iframe/iframe003.html" data-keywords="navegação por iframe ex 03 iframes name target ">
+              <div class="ex-top"><span class="ex-badge">03</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Navegação por iframe</h4>
+              <div class="ex-chips"><span class="chip">name</span><span class="chip">target</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-iframe/iframe004.html" data-keywords="iframe com formulário ex 04 iframes iframe ">
+              <div class="ex-top"><span class="ex-badge">04</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Iframe com formulário</h4>
+              <div class="ex-chips"><span class="chip">iframe</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-iframe/iframe005.html" data-keywords="conteúdo em iframe ex 05 iframes iframe ">
+              <div class="ex-top"><span class="ex-badge">05</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Conteúdo em iframe</h4>
+              <div class="ex-chips"><span class="chip">iframe</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-iframe/iframe006.html" data-keywords="mapas e conteúdos ex 06 iframes maps embed ">
+              <div class="ex-top"><span class="ex-badge">06</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Mapas e conteúdos</h4>
+              <div class="ex-chips"><span class="chip">Maps</span><span class="chip">embed</span></div>
+            </a>
+          </div>
+          <div class="grp-head"><h3>Media queries</h3><span class="grp-count">5</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md04/ex-mediaquery/mq001/index.html" data-keywords="estilos para impressão ex 01 media queries print screen ">
+              <div class="ex-top"><span class="ex-badge">01</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Estilos para impressão</h4>
+              <div class="ex-chips"><span class="chip">print</span><span class="chip">screen</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-mediaquery/mq002/index.html" data-keywords="orientação da tela ex 02 media queries orientation ">
+              <div class="ex-top"><span class="ex-badge">02</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Orientação da tela</h4>
+              <div class="ex-chips"><span class="chip">orientation</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-mediaquery/mq003/index.html" data-keywords="orientação com imagens ex 03 media queries orientation ">
+              <div class="ex-top"><span class="ex-badge">03</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Orientação com imagens</h4>
+              <div class="ex-chips"><span class="chip">orientation</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-mediaquery/mq004/index.html" data-keywords="breakpoints por dispositivo ex 04 media queries min/max-width ">
+              <div class="ex-top"><span class="ex-badge">04</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Breakpoints por dispositivo</h4>
+              <div class="ex-chips"><span class="chip">min/max-width</span></div>
+            </a>
+            <a class="ex-card" href="../md04/ex-mediaquery/mq005/index.html" data-keywords="breakpoint simples ex 05 media queries @media ">
+              <div class="ex-top"><span class="ex-badge">05</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Breakpoint simples</h4>
+              <div class="ex-chips"><span class="chip">@media</span></div>
+            </a>
+          </div>
+        </div>
+        <div class="module-panel" id="panel-m05" role="tabpanel" aria-labelledby="tab-m05" data-module="m05">
+          <div class="panel-intro">
+            <h3 class="panel-name"><i class="fa-solid fa-table-cells-large"></i> Flexbox &amp; Grid</h3>
+            <p class="panel-hint">Layouts modernos com Flexbox e Grid. <span class="panel-count">15 itens</span></p>
+          </div>
+          <div class="grp-head"><h3>Flexbox</h3><span class="grp-count">11</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md05/ex-flexbox/flex001/index.html" data-keywords="introdução ao flexbox ex 01 flexbox display:flex ">
+              <div class="ex-top"><span class="ex-badge">01</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Introdução ao Flexbox</h4>
+              <div class="ex-chips"><span class="chip">display:flex</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex002/index.html" data-keywords="direção dos itens ex 02 flexbox flex-direction ">
+              <div class="ex-top"><span class="ex-badge">02</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Direção dos itens</h4>
+              <div class="ex-chips"><span class="chip">flex-direction</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex003/index.html" data-keywords="alinhamento e espaço ex 03 flexbox justify align-items ">
+              <div class="ex-top"><span class="ex-badge">03</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Alinhamento e espaço</h4>
+              <div class="ex-chips"><span class="chip">justify</span><span class="chip">align-items</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex004/index.html" data-keywords="centralização ex 04 flexbox center ">
+              <div class="ex-top"><span class="ex-badge">04</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Centralização</h4>
+              <div class="ex-chips"><span class="chip">center</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex005/index.html" data-keywords="container flexível ex 05 flexbox flex ">
+              <div class="ex-top"><span class="ex-badge">05</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Container flexível</h4>
+              <div class="ex-chips"><span class="chip">flex</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex006/index.html" data-keywords="alinhamento individual ex 06 flexbox align-self ">
+              <div class="ex-top"><span class="ex-badge">06</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Alinhamento individual</h4>
+              <div class="ex-chips"><span class="chip">align-self</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex007/index.html" data-keywords="ordem dos itens ex 07 flexbox order ">
+              <div class="ex-top"><span class="ex-badge">07</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Ordem dos itens</h4>
+              <div class="ex-chips"><span class="chip">order</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex008/index.html" data-keywords="distribuição de espaço ex 08 flexbox espaço ">
+              <div class="ex-top"><span class="ex-badge">08</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Distribuição de espaço</h4>
+              <div class="ex-chips"><span class="chip">espaço</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex009/index.html" data-keywords="grow, shrink e basis ex 09 flexbox flex ">
+              <div class="ex-top"><span class="ex-badge">09</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">grow, shrink e basis</h4>
+              <div class="ex-chips"><span class="chip">flex</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex010/index.html" data-keywords="menu com flexbox ex 10 flexbox nav ">
+              <div class="ex-top"><span class="ex-badge">10</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Menu com Flexbox</h4>
+              <div class="ex-chips"><span class="chip">nav</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-flexbox/flex011/index.html" data-keywords="mídia + texto ex 11 flexbox responsivo ">
+              <div class="ex-top"><span class="ex-badge">11</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Mídia + texto</h4>
+              <div class="ex-chips"><span class="chip">responsivo</span></div>
+            </a>
+          </div>
+          <div class="grp-head"><h3>Grid</h3><span class="grp-count">3</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md05/ex-grid/grid001/index.html" data-keywords="introdução ao grid ex 01 grid display:grid gap ">
+              <div class="ex-top"><span class="ex-badge">01</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Introdução ao Grid</h4>
+              <div class="ex-chips"><span class="chip">display:grid</span><span class="chip">gap</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-grid/grid002/index.html" data-keywords="colunas com fr ex 02 grid repeat() fr ">
+              <div class="ex-top"><span class="ex-badge">02</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Colunas com fr</h4>
+              <div class="ex-chips"><span class="chip">repeat()</span><span class="chip">fr</span></div>
+            </a>
+            <a class="ex-card" href="../md05/ex-grid/grid003/index.html" data-keywords="áreas do grid ex 03 grid grid-area ">
+              <div class="ex-top"><span class="ex-badge">03</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Áreas do Grid</h4>
+              <div class="ex-chips"><span class="chip">grid-area</span></div>
+            </a>
+          </div>
+          <div class="grp-head"><h3>Desafios</h3><span class="grp-count">1</span></div>
+          <div class="ex-grid">
+            <a class="ex-card" href="../md05/ex-grid/grid-dsf01/index.html" data-keywords="desafio de grid ex d1 desafios layout desafio">
+              <div class="ex-top"><span class="ex-badge ex-badge--desafio">Desafio</span><span class="ex-open" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+              <h4 class="ex-title">Desafio de Grid</h4>
+              <div class="ex-chips"><span class="chip">Layout</span></div>
+            </a>
+          </div>
+        </div>
+        </div>
+
+        <p class="no-results" id="noResults" hidden><i class="fa-regular fa-face-frown"></i> Nenhum exercício encontrado.</p>
+      </div>
+    </section>
+
+    <!-- EVOLUÇÃO -->
+    <section class="section" id="evolucao">
+      <div class="wrap">
+        <div class="sec-head reveal-init">
+          <span class="kicker"><i class="fa-solid fa-arrow-trend-up"></i> Progresso</span>
+          <h2>Evolução do aprendizado</h2>
+          <p>A ordem em que os conteúdos foram estudados — arraste para o lado.</p>
+        </div>
+      </div>
+      <div class="timeline-wrap reveal-init">
+        <ol class="timeline" id="timeline">
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">01</span><span class="tl-ico"><i class="fa-brands fa-html5"></i></span></div>
+            <h3 class="tl-title">Fundamentos HTML</h3>
+            <p class="tl-desc">Estrutura da página, textos, títulos, links e imagens.</p>
+          </li>
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">02</span><span class="tl-ico"><i class="fa-solid fa-image"></i></span></div>
+            <h3 class="tl-title">Imagens</h3>
+            <p class="tl-desc">Imagens semânticas e adaptáveis a cada tamanho de tela.</p>
+          </li>
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">03</span><span class="tl-ico"><i class="fa-solid fa-table"></i></span></div>
+            <h3 class="tl-title">Tabelas</h3>
+            <p class="tl-desc">Mesclagem de células, agrupamento e tabelas responsivas.</p>
+          </li>
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">04</span><span class="tl-ico"><i class="fa-solid fa-list-check"></i></span></div>
+            <h3 class="tl-title">Formulários</h3>
+            <p class="tl-desc">Campos, tipos de input, validação e coleta de dados.</p>
+          </li>
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">05</span><span class="tl-ico"><i class="fa-solid fa-mobile-screen"></i></span></div>
+            <h3 class="tl-title">Responsividade</h3>
+            <p class="tl-desc">Iframes e media queries para todos os dispositivos.</p>
+          </li>
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">06</span><span class="tl-ico"><i class="fa-solid fa-arrows-left-right"></i></span></div>
+            <h3 class="tl-title">Flexbox</h3>
+            <p class="tl-desc">Alinhamento e distribuição flexível dos elementos.</p>
+          </li>
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">07</span><span class="tl-ico"><i class="fa-solid fa-table-cells-large"></i></span></div>
+            <h3 class="tl-title">Grid</h3>
+            <p class="tl-desc">Layouts bidimensionais e áreas com CSS Grid.</p>
+          </li>
+          <li class="tl-card">
+            <div class="tl-top"><span class="tl-num">08</span><span class="tl-ico"><i class="fa-solid fa-rocket"></i></span></div>
+            <h3 class="tl-title">Projetos</h3>
+            <p class="tl-desc">Sites completos aplicando tudo na prática.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="wrap">
+        <p class="tl-hint"><i class="fa-solid fa-hand-pointer"></i> Arraste ou role para explorar toda a jornada</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>&copy; <span id="year">2026</span> Luizeh — Estudos de HTML &amp; CSS</span>
+      <a href="https://github.com/luizeh/html-css" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> github.com/luizeh/html-css</a>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo" hidden><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

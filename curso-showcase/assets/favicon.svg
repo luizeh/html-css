@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Curso HTML e CSS">
+  <rect width="64" height="64" rx="15" fill="#0a0a0a"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13.5" fill="none" stroke="#1a3a4a" stroke-width="2"/>
+  <!-- livro aberto -->
+  <path d="M32 20 C25 16 16 15.5 11 17.5 L11 45 C16 43 25 43.5 32 47.5 Z" fill="#a8c9dd"/>
+  <path d="M32 20 C39 16 48 15.5 53 17.5 L53 45 C48 43 39 43.5 32 47.5 Z" fill="#d9ecf6"/>
+  <path d="M32 20 L32 47.5" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#6b8fa3" stroke-width="1.6" stroke-linecap="round" opacity="0.85">
+    <path d="M16 25 H27"/>
+    <path d="M16 30.5 H27"/>
+    <path d="M37 25 H48"/>
+    <path d="M37 30.5 H48"/>
+  </g>
+</svg>
